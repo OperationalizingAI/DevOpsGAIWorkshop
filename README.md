@@ -1,13 +1,19 @@
-## DevOps for GenAI Hackathon SF by MongoDB
-[https://lu.ma/DevOps-for-GenAI-SF](https://lu.ma/DevOps-for-GenAI-SF)
+## DevOps for GenAI Workshop
 
+This workshop explores the integration and impact of Generative AI (GAI) tools in DevOps and DevSecOps. We aim to comprehensively understand RAGs, Orchestraion, and Observilbility solutions realted (LLMs)that can be effectively utilized in modern software delivery and security practices.
 
-The purpose of this preparation sheet is to help participants get a lab environment set up and running before the event. We have provided some sample Python code that we can use as a template for some of the projects we'll be running in the hackathon. In addition to Llama 2, Bedrock, and others, we will try to provide alternative stacks at the event. Currently, the default starter stack consists of GPT3.5-turbo, Langchain, and MongoDB Atlas Vector Search.
+In this workshop we will focus on what we are calling the LAM stack in order to learn the basics of data operations and engenering realted to Large Language Models (LLMs.)
+
+LAM Stack for this workshop
+
+Langchain or LlamaIndex (Orchestration)
+Arize Pheonix (Observability) 
+MongoDB Atlas Vector Serach (RAG)
 
 ## Code of Conduct
 [https://devopsdays.org/conduct/](https://devopsdays.org/conduct/)
 
-## GenAI Hackathon Preparation Sheet Overview
+## GenAI Workshop Preparation Sheet Overview
 
 | Overview  |
 |:----------|
