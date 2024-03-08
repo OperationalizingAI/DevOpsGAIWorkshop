@@ -1,0 +1,23 @@
+python-dotenv==1.0.0
+pymongo[srv]
+streamlit
+
+
+## LLMs / embeddings
+openai
+llama-index
+transformers
+torch
+sentence_transformers
+llama-cpp-python
+
+
+## pdf handling
+PyPDF2
+pypdf
+
+## Utils
+ipykernel
+ipython
+chardet==5.2.0
+charset-normalizer==3.3.2
