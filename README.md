@@ -101,7 +101,7 @@ In this example we are going to load a HuggingFace dataset provided by MongoDB.
 Note: this same code can be used to load another MongoDB supplied HF dataset called "whatscooking"
 
 Code example from the AIatMongoDB/embedded_movies (loading the collection)
-Use [https://github.com/OperationalizingAI/DevOpsGAIWorkshop/blob/main/MDB_emedded_datasets.ipynb](MDB_emedded_datasets.ipynb)
+Use [MDB_emedded_datasets.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/blob/main/MDB_emedded_datasets.ipynb)
 ```
 !pip install pymongo
 !pip install dataset
