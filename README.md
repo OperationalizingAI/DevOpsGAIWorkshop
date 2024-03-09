@@ -22,9 +22,9 @@ MongoDB Atlas Vector Serach (RAG)
 | Run the first example |
 | Setup another Atlas Vector Database (Langchain Example) |
 | Setup Amazon Sagemaker environment id using AWS|
-| Setup Google Colab environment id using GCP  
+| Setup Google Colab environment id using GCP 
+| Evualtion Labs |
 | Optional Labs |
-| Optional Evaualtions setup |
 | Setting S3 Buckets for large files (optional) |
 
 
@@ -328,30 +328,9 @@ os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 - Setup Google Secrets Manager (secrets)
 - Run your code.
 
-### 7) Optional Labs
-We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
+### 7) Evaluation Labs
+Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
 
-[https://github.com/sujee/mongodb-atlas-vector-search](https://github.com/sujee/mongodb-atlas-vector-search)]
-
-There also some great examples in Prakul Argarwal's (from MongoDB) repository here:
-
-[https://github.com/prakul/MongoDB-AI-Resources](https://github.com/prakul/MongoDB-AI-Resources)
-
-Here's a list of the labs:
-
-- lab1 - Connects to the client connection to the Atlas database. Assumes the sample_mflix databse exists.
-- Lab1-2 - Simple program to generate images using OpenAI Dall-e-3. 
-- Lab2-1 - Simple OpenAI client connection test.
-- Lab2-2 - Run simple quries against the sample_mflux (Netflix Movies) dataset. Setup a vector search index to quest embeddings.
-- Lab2-3 - Run cosine similarity against chunked PDF files. 
-- Lab2-4 - Query embeddings from text-embedding-ada-002 to use to search Atlas vector database. The langchain_db must exist already.
-- Lab3-1 - Querying with different embedding models.
-- Lab3-2 - Adding multiple embeddings to a collection.
-- Lab3-3 - Compare performance of different embeddings.
-- Lab4-1 - Load Uber and Lyft 10k PDFs into Atlas Vector Search.
-- Lab4-2 - DAL-E-3 Image generator.
-
-### 8) Setting Observability with Arize-Phoenix (optional) 
 Arize Phoenix is an opensource tool for evaluating, troubleshoot, and fine tune your LLMs.
 
 [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
@@ -423,6 +402,31 @@ px.Client().log_evaluations(
     DocumentEvaluations(eval_name="Relevance", dataframe=relevance_eval_df),
 )
 ```
+
+### 8) Optional Labs
+We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
+
+[https://github.com/sujee/mongodb-atlas-vector-search](https://github.com/sujee/mongodb-atlas-vector-search)]
+
+There also some great examples in Prakul Argarwal's (from MongoDB) repository here:
+
+[https://github.com/prakul/MongoDB-AI-Resources](https://github.com/prakul/MongoDB-AI-Resources)
+
+Here's a list of the labs:
+
+- MDB-lab1 - Connects to the client connection to the Atlas database. Assumes the sample_mflix databse exists.
+- MDB-Lab1-2 - Simple program to generate images using OpenAI Dall-e-3. 
+- MDB-Lab2-1 - Simple OpenAI client connection test.
+- MDB-Lab2-2 - Run simple quries against the sample_mflux (Netflix Movies) dataset. Setup a vector search index to quest embeddings.
+- MDB-Lab2-3 - Run cosine similarity against chunked PDF files. 
+- MDB-Lab2-4 - Query embeddings from text-embedding-ada-002 to use to search Atlas vector database. The langchain_db must exist already.
+- MDB-Lab3-1 - Querying with different embedding models.
+- MDB-Lab3-2 - Adding multiple embeddings to a collection.
+- MDB-Lab3-3 - Compare performance of different embeddings.
+- MDB-Lab4-1 - Load Uber and Lyft 10k PDFs into Atlas Vector Search.
+- MDB-Lab4-2 - DAL-E-3 Image generator.
+
+### 8) Setting Observability with Arize-Phoenix (optional) 
 
 ### 9) Setting S3 Buckets for large files (optional) 
 
