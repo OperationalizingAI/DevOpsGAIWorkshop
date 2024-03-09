@@ -337,10 +337,12 @@ Use chunking and embeddings examples that were usied in the demos
 
 - GenAI-Workshop-Demo1.ipynb - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
 - GenAI-Workshop-Demo2.ipynb - Using Embeddings to test Cosine Similarities
-- GenAI-Workshop-Demo3.ipynb- Chunking, Embedding, and Search (OpenContext Markdown) - Loading from a Hugginface dataset
-- GenAI-Workshop-Demo4.ipynb- Open Context Documentaion Loader (using different methods)
-- GenAI-Workshop-Demo5.ipynb - Cosine Similarity from Atlas Vector Search
+- GenAI-Workshop-Demo3.ipynb - Chunking, Embedding, and Search (OpenContext Markdown) 
+- GenAI-Workshop-Demo4.ipynb - Open Context Documentaion Loader - unzip catalog-yaml-format-20240309T155111Z-001.zip
 
+Optional Lab
+
+- GenAI-Workshop-Demo5.ipynb - Cosine Similarity from Atlas Vector Search
 
 ### 8) Evaluation Labs
 Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
