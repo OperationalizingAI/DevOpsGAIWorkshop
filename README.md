@@ -323,6 +323,9 @@ os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 ### 6) Using Google Colab 
 - Create a free account on Google Colab
 - Goto ( https://colab.research.google.com/ )
+- Clone the workshop repo
+  	- open up a terminal window
+  	- got clone https://github.com/OperationalizingAI/DevOpsGAIWorkshop.git
 - Load the same note books for Colab
 	- MDBLoad-GC.ipynb
 	- MDBRetrieve-GC.ipynb
