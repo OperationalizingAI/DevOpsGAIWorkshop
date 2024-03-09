@@ -331,11 +331,11 @@ os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 ### 7) Chnunking and Embeddings Labs
 Use chunking and embeddings examples that were usied in the demos
 
-GenAI-Workshop-Demo1.ipynb - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
-GenAI-Workshop-Demo2.ipynb - Using Embeddings to test Cosine Similarities
-GenAI-Workshop-Demo3.ipynb- Chunking, Embedding, and Search (OpenContext Markdown) - Loading from a Hugginface dataset
-GenAI-Workshop-Demo4.ipynb- Open Context Documentaion Loader (using different methods)
-GenAI-Workshop-Demo4.ipynb - Cosine Similarity from Atlas Vector Search
+- GenAI-Workshop-Demo1.ipynb - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
+- GenAI-Workshop-Demo2.ipynb - Using Embeddings to test Cosine Similarities
+- GenAI-Workshop-Demo3.ipynb- Chunking, Embedding, and Search (OpenContext Markdown) - Loading from a Hugginface dataset
+- GenAI-Workshop-Demo4.ipynb- Open Context Documentaion Loader (using different methods)
+- GenAI-Workshop-Demo4.ipynb - Cosine Similarity from Atlas Vector Search
 
 
 ### 7) Evaluation Labs
