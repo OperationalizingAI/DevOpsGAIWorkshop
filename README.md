@@ -415,9 +415,9 @@ px.Client().log_evaluations(
 ```
 Lab Demon Example:
 
-GenAI-Workshop-Demo5.ipynb - Evaluation of OpenContext Documentaion with Arize
+GenAI-Workshop-Demo6.ipynb - Evaluation of OpenContext Documentaion with Arize
 
-### 8) Optional Labs
+### 9) Optional Labs
 We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
 
 [https://github.com/sujee/mongodb-atlas-vector-search](https://github.com/sujee/mongodb-atlas-vector-search)]
@@ -440,7 +440,7 @@ Here's a list of the labs:
 - MDB-Lab4-1 - Load Uber and Lyft 10k PDFs into Atlas Vector Search.
 - MDB-Lab4-2 - DAL-E-3 Image generator.
 
-### 9) Setting S3 Buckets for large files (optional) 
+### 10) Setting S3 Buckets for large files (optional) 
 
 - Additional Notes for Processing Large Files
 - Setup a shared S3 blob
