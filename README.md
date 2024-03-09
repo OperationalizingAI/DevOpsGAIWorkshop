@@ -6,9 +6,9 @@ In this workshop we will focus on what we are calling the LAM stack in order to 
 
 LAM Stack for this workshop
 
-Langchain or LlamaIndex (Orchestration)
-Arize Pheonix (Observability) 
-MongoDB Atlas Vector Serach (RAG)
+- Langchain or LlamaIndex (Orchestration)
+- Arize Pheonix (Observability) 
+- MongoDB Atlas Vector Serach (RAG)
 
 ## Code of Conduct
 [https://devopsdays.org/conduct/](https://devopsdays.org/conduct/)
