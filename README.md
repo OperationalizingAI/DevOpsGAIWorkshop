@@ -23,7 +23,7 @@ LAM Stack for this workshop
 | Setup another Atlas Vector Database (Langchain Example) |
 | Setup Amazon Sagemaker environment id using AWS|
 | Setup Google Colab environment id using GCP 
-| Evualtion Labs |
+| Evaluation Labs |
 | Optional Labs |
 | Setting S3 Buckets for large files (optional) |
 
