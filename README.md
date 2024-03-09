@@ -22,7 +22,8 @@ LAM Stack for this workshop
 | Run the first example |
 | Setup another Atlas Vector Database (Langchain Example) |
 | Setup Amazon Sagemaker environment id using AWS|
-| Setup Google Colab environment id using GCP 
+| Setup Google Colab environment id using GCP |
+| Chunking and Embedding Labs |
 | Evaluation Labs |
 | Optional Labs |
 | Setting S3 Buckets for large files (optional) |
@@ -335,10 +336,10 @@ Use chunking and embeddings examples that were usied in the demos
 - GenAI-Workshop-Demo2.ipynb - Using Embeddings to test Cosine Similarities
 - GenAI-Workshop-Demo3.ipynb- Chunking, Embedding, and Search (OpenContext Markdown) - Loading from a Hugginface dataset
 - GenAI-Workshop-Demo4.ipynb- Open Context Documentaion Loader (using different methods)
-- GenAI-Workshop-Demo4.ipynb - Cosine Similarity from Atlas Vector Search
+- GenAI-Workshop-Demo5.ipynb - Cosine Similarity from Atlas Vector Search
 
 
-### 7) Evaluation Labs
+### 8) Evaluation Labs
 Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
 
 Arize Phoenix is an opensource tool for evaluating, troubleshoot, and fine tune your LLMs.
@@ -412,6 +413,9 @@ px.Client().log_evaluations(
     DocumentEvaluations(eval_name="Relevance", dataframe=relevance_eval_df),
 )
 ```
+Lab Demon Example:
+
+GenAI-Workshop-Demo5.ipynb - Evaluation of OpenContext Documentaion with Arize
 
 ### 8) Optional Labs
 We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
