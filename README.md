@@ -426,8 +426,6 @@ Here's a list of the labs:
 - MDB-Lab4-1 - Load Uber and Lyft 10k PDFs into Atlas Vector Search.
 - MDB-Lab4-2 - DAL-E-3 Image generator.
 
-### 8) Setting Observability with Arize-Phoenix (optional) 
-
 ### 9) Setting S3 Buckets for large files (optional) 
 
 - Additional Notes for Processing Large Files
