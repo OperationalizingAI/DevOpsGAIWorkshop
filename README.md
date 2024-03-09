@@ -330,6 +330,7 @@ os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 	- MDBLoad-GC.ipynb
 	- MDBRetrieve-GC.ipynb
 - Setup Google Secrets Manager (secrets)
+- For certain labs you may need to copy the requirements,txt, OpenAICLient.py, AltasClient.py from the repo directory to the root directory.
 - Run your code.
 
 ### 7) Chnunking and Embeddings Labs
