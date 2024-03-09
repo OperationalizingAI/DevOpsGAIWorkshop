@@ -233,7 +233,8 @@ From the AWS Console navigate the Amazon Sagemaker (note you can use the search 
 - Create notebook
 
 Use this link to clone...
-[https://github.com/OperationalizingAI/Hackathon-2-22-24.git](https://github.com/OperationalizingAI/Hackathon-2-22-24.git)
+
+[https://github.com/OperationalizingAI/DevOpsGAIWorkshop.git](https://github.com/OperationalizingAI/DevOpsGAIWorkshop.git)
 
 (See Figure 4 for an example)
 
