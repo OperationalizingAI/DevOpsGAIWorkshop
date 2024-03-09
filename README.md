@@ -245,7 +245,8 @@ Figure 2
 Figure 3
 
 ![Figure 4](/images/image4.png)
-Figure 4
+Figure 4 
+### Note: Use github.com/OperationalizingAI/DevOpsGAIWorkshop.git for the cloned repo.
 
 #### Create the Notebook
 - After the instance is running (inService) create the Python notebook. 
