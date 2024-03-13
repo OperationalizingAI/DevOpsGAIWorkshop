@@ -260,8 +260,8 @@ Figure 4
 - Import the sample notebook provided with the workshop
 - Load the same note books for Colab
 - For the Langchain Example
-	- MDBLoad-SM.ipynb
-	- MDBRetrieve-SM.ipynb
+	- **MDBLoad-SM.ipynb**
+	- **MDBRetrieve-SM.ipynb**
 - Run your code.
 
 >Note: The examples use a secrets manager. For Sagemaker we used Amazon Secrets Manager.
