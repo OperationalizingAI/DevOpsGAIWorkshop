@@ -105,6 +105,9 @@ Code example from the AIatMongoDB/embedded_movies (loading the collection)
 Use:
 
 [MDB_emedded_datasets.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/blob/main/MDB_emedded_datasets.ipynb)
+
+**Note:** You can choose your own notebook interface to run your code. For the purposes of this workshop we have setup examples fro both AWS Sagemaker and Google Colab ( Section #5 for Sagemaker and Section #6 for Colab)
+
 ```
 !pip install pymongo
 !pip install dataset
