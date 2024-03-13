@@ -352,11 +352,15 @@ Arize Phoenix is an opensource tool for evaluating, troubleshoot, and fine tune 
 
 [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
 
-This is what we are calling the LAN Stack Example...
+This is what we are calling the LAM Stack Example...
 
 [https://colab.research.google.com/drive/1LXJW0YS-N8_5f6E6p1hGGLsZ2k4ZD5P3?usp=sharing](https://colab.research.google.com/drive/1LXJW0YS-N8_5f6E6p1hGGLsZ2k4ZD5P3?usp=sharing)
 
 The following is a code that will work with Langhcain.
+
+Lab Demon Example:
+
+**GenAI-Workshop-Demo6.ipynb** - Evaluation of OpenContext Documentaion with Arize
 
 Install Arize-Phoenix
 ```
@@ -423,9 +427,6 @@ px.Client().log_evaluations(
     DocumentEvaluations(eval_name="Relevance", dataframe=relevance_eval_df),
 )
 ```
-Lab Demon Example:
-
-GenAI-Workshop-Demo6.ipynb - Evaluation of OpenContext Documentaion with Arize
 
 ### 9) Optional Labs
 We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
