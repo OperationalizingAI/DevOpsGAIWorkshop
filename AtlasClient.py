@@ -33,9 +33,8 @@ class AtlasClient ():
             {
                 "$project": {
                     '_id' : 1,
-                    'title' : 1,
-                    'plot' : 1,
-                    'year' : 1,
+                    'text' : 1,
+                    'source' : 1,
                     "search_score": { "$meta": "vectorSearchScore" }
             }
             }
