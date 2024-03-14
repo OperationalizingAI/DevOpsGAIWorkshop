@@ -341,7 +341,9 @@ Use chunking and embeddings examples that were usied in the demos
 
 - **GenAI-Workshop-Demo1.ipynb** - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
 - **GenAI-Workshop-Demo2.ipynb** - Using Embeddings to test Cosine Similarities
-- **GenAI-Workshop-Demo3.ipynb** - Chunking, Embedding, and Search (OpenContext Markdown) 
+- **GenAI-Workshop-Demo3.ipynb** - Chunking, Embedding, and Search (OpenContext Markdown)
+  - You need to use AWS Secrets Manager for Sagemaker
+  - You need to change directory_path = 'home/ec2-user/SageMaker/DevOpsGAIWorkshop'
 - **GenAI-Workshop-Demo4.ipynb** - Open Context Documentaion Loader - unzip catalog-yaml-format-20240309T155111Z-001.zip
 
 Optional Lab
