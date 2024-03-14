@@ -342,13 +342,19 @@ Use chunking and embeddings examples that were usied in the demos
 - **GenAI-Workshop-Demo1.ipynb** - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
 - **GenAI-Workshop-Demo2.ipynb** - Using Embeddings to test Cosine Similarities
 - **GenAI-Workshop-Demo3.ipynb** - Chunking, Embedding, and Search (OpenContext Markdown)
+  - For Sagemaker remove all google installs
   - You need to use AWS Secrets Manager for Sagemaker
-  - You need to change directory_path = 'home/ec2-user/SageMaker/DevOpsGAIWorkshop'
-- **GenAI-Workshop-Demo4.ipynb** - Open Context Documentaion Loader - unzip catalog-yaml-format-20240309T155111Z-001.zip
+  - unzip catalog-yaml-format-20240309T155111Z-001.zip
+  - You need to change directory_path = '/home/ec2-user/SageMaker/DevOpsGAIWorkshop/catalog-yaml-format'
+- **GenAI-Workshop-Demo4.ipynb** - Open Context Documentaion Loader
+  - You need to use AWS Secrets Manager for Sagemaker
+  - Change all directory paths (each example) to '/home/ec2-user/SageMaker/DevOpsGAIWorkshop/catalog-yaml-format'
 
 Optional Lab
 
 - **GenAI-Workshop-Demo5.ipynb** - Cosine Similarity from Atlas Vector Search
+  - For Sagemaker remove all google installs
+  - You need to use AWS Secrets Manager for Sagemaker
 
 ### 8) Evaluation Labs
 Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
