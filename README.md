@@ -355,6 +355,7 @@ Optional Lab
 - **GenAI-Workshop-Demo5.ipynb** - Cosine Similarity from Atlas Vector Search
   - For Sagemaker remove all google installs
   - You need to use AWS Secrets Manager for Sagemaker
+  - Need to upate the AtlasClient.py code (see instructor)
 
 ### 8) Evaluation Labs
 Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
