@@ -364,15 +364,16 @@ Arize Phoenix is an opensource tool for evaluating, troubleshoot, and fine tune 
 
 [https://github.com/Arize-ai/phoenix](https://github.com/Arize-ai/phoenix)
 
+Lab Demo Example:
+
+- **GenAI-Workshop-Demo6.ipynb** - Evaluation of OpenContext Documentaion with Arize
+ - For Sagemaker change install - pip install arize-phoenix>=3.14.0
+
 This is what we are calling the LAM Stack Example...
 
 [https://colab.research.google.com/drive/1LXJW0YS-N8_5f6E6p1hGGLsZ2k4ZD5P3?usp=sharing](https://colab.research.google.com/drive/1LXJW0YS-N8_5f6E6p1hGGLsZ2k4ZD5P3?usp=sharing)
 
 The following is a code that will work with Langhcain.
-
-Lab Demon Example:
-
-**GenAI-Workshop-Demo6.ipynb** - Evaluation of OpenContext Documentaion with Arize
 
 Install Arize-Phoenix
 ```
