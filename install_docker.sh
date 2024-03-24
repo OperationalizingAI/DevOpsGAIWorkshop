@@ -17,3 +17,5 @@ sudo usermod -aG docker ec2-user
 
 sudo docker run hello-world
 
+docker run -p 27777:27017 --privileged -it mongodb/atlas bash
+
