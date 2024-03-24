@@ -3,6 +3,10 @@
 
 curl https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh -o condainstall.sh
 
+chmod 744 condainstall.sh
+
+./condainstall.sh
+
 source ~/.bashrc
 
 conda --version
