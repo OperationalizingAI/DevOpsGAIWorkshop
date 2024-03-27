@@ -17,5 +17,8 @@ sudo usermod -aG docker ec2-user
 
 sudo docker run hello-world
 
-docker run -p 27777:27017 --privileged -it mongodb/atlas bash
+echo "run the following commands:" 
+echo "sudo passwd ec2-user"
+echo "su - ec2-user"
+echo "docker run -p 27777:27017 --privileged -it mongodb/atlas bash"
 
