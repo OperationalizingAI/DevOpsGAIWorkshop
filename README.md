@@ -1,6 +1,6 @@
 ## DevOps for GenAI Workshop
 
-This workshop explores the integration and impact of Generative AI (GAI) tools in DevOps and DevSecOps. We aim to comprehensively understand RAGs, Orchestraion, and Observilbility solutions realted (LLMs)that can be effectively utilized in modern software delivery and security practices.
+This workshop explores the integration and impact of Generative AI (GAI) tools in DevOps and DevSecOps. We aim to comprehensively understand RAGs, Orchestration, and Observalbility solutions related (LLMs) that can be effectively utilized in modern software delivery and security practices.
 
 In this workshop we will focus on what we are calling the LAM stack in order to learn the basics of data operations and engenering realted to Large Language Models (LLMs.)
 
