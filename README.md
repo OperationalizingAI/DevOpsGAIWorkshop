@@ -174,11 +174,15 @@ If you need to reload a collection.
 
 In this example we are going to load a HuggingFace dataset based on a Deming Book and demo chunking stratgies.
 
+Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge
+
 [GenAI-Workshop-Demon1b.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1b.ipynb)
 
 ### 5) Testing Embeddings  
 
 In this example we are going to load a HuggingFace dataset based on a Deming Book and demo embedding stratgies.
+
+Using Embeddings to test Cosine Similarities
 
 Try testing out some differnt embeddings and see what kind of results you get with your query
 
