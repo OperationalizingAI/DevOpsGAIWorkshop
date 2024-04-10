@@ -214,7 +214,20 @@ Figure 1
 >>##### For more details see:
 >>[https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/](https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/)
 
-### 5) Using Amazon Sagemaker 
+### 5) Using Google Colab 
+- Create a free account on Google Colab
+- Goto ( https://colab.research.google.com/ )
+- Clone the workshop repo
+  	- open up a terminal window
+  	- git clone https://github.com/OperationalizingAI/DevOpsGAIWorkshop.git
+- Load the same note books for Colab
+	- MDBLoad-GC.ipynb
+	- MDBRetrieve-GC.ipynb
+- Setup Google Secrets Manager (secrets)
+- For certain labs you may need to copy the requirements,txt, OpenAICLient.py, AltasClient.py from the repo directory to the root directory.
+- Run your code.
+- 
+### 6) Using Amazon Sagemaker 
 From the AWS Console navigate the Amazon Sagemaker (note you can use the search bar.)
 
 #### Setup a Notebook Instance
@@ -322,19 +335,6 @@ os.environ['MONGODB_ATLAS_CLUSTER_URI'] = MONGODB_ATLAS_CLUSTER_URI
 langsmith_api_key = secret["LANGSMITH_API_KEY"]
 os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 ```
-
-### 6) Using Google Colab 
-- Create a free account on Google Colab
-- Goto ( https://colab.research.google.com/ )
-- Clone the workshop repo
-  	- open up a terminal window
-  	- git clone https://github.com/OperationalizingAI/DevOpsGAIWorkshop.git
-- Load the same note books for Colab
-	- MDBLoad-GC.ipynb
-	- MDBRetrieve-GC.ipynb
-- Setup Google Secrets Manager (secrets)
-- For certain labs you may need to copy the requirements,txt, OpenAICLient.py, AltasClient.py from the repo directory to the root directory.
-- Run your code.
 
 ### 7) Chnunking and Embeddings Labs
 Use chunking and embeddings examples that were usied in the demos
