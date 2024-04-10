@@ -20,6 +20,8 @@ LAM Stack for this workshop
 | Signup for a free OpenAI account    |
 | Create a Free MongoDB Atlas Account |
 | Run the first example |
+| Chunking Strategy Example |
+| Embedding Strategy Example |
 | Setup another Atlas Vector Database (Langchain Example) |
 | Setup Google Colab environment id using GCP |
 | Setup Amazon Sagemaker environment id using AWS|
@@ -101,7 +103,7 @@ Note: this same code can be used to load another MongoDB supplied HF dataset cal
 Code example from the AIatMongoDB/embedded_movies (loading the collection)
 Use:
 
-[MDB_emedded_datasets.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demon1a.ipynb)
+[GenAI-Workshop-Demon1a.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1a.ipynb)
 
 **Note:** You can choose your own notebook interface to run your code. For the purposes of this workshop we have setup examples fro both AWS Sagemaker and Google Colab ( Section #5 for Sagemaker and Section #6 for Colab)
 
@@ -168,7 +170,19 @@ If you need to reload a collection.
 - In the left window highlight the collection name
 - Select the trash can icon and delete
 
-### 4) Setup another Atlas Vector Database (Langchain Example)
+### 4) Managing Chunking  
+
+In this example we are going to load a HuggingFace dataset based on a Deming Book and demo chunking stratgies.
+
+[GenAI-Workshop-Demon1b.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1b.ipynb)
+
+### 5) testing Embeddings  
+
+In this example we are going to load a HuggingFace dataset based on a Deming Book and demo embedding stratgies.
+
+[GenAI-Workshop-Demon1c.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1c.ipynb)
+
+### 6) Setup another Atlas Vector Database (Langchain Example)
 
 This example is based on the following code:
 
