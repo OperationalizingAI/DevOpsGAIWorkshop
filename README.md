@@ -182,7 +182,7 @@ In this example we are going to load a HuggingFace dataset based on a Deming Boo
 
 Try testing out some differnt embeddings and see what kind of results you get with your query
 
-'''
+```
 # Constants for default values
 DEFAULT_CHUNK_SIZE = 400
 DEFAULT_CHUNK_OVERLAP = 50
@@ -195,7 +195,7 @@ DEFAULT_NUM_CHUNKS = 10
 model = SentenceTransformer('BAAI/bge-small-en-v1.5')
 #model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 #model = SentenceTransformer('nomic-ai/nomic-embed-text-v1',trust_remote_code=True)
-'''
+```
 
 [GenAI-Workshop-Demon1c.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1c.ipynb)
 
