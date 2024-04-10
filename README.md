@@ -21,13 +21,12 @@ LAM Stack for this workshop
 | Create a Free MongoDB Atlas Account |
 | Run the first example |
 | Setup another Atlas Vector Database (Langchain Example) |
-| Setup Amazon Sagemaker environment id using AWS|
 | Setup Google Colab environment id using GCP |
+| Setup Amazon Sagemaker environment id using AWS|
 | Chunking and Embedding Labs |
 | Evaluation Labs |
 | Optional Labs |
 | Setting S3 Buckets for large files (optional) |
-
 
 ### 1) Signup for a free OpenAI account
 - Create an OpenAI account
@@ -45,7 +44,6 @@ LAM Stack for this workshop
 - Fill in the little questionnaire
 - Takes you into the Deploy Database
 
-
 #### Deploy Database Cluster
 - Select the free m0
 - Use the defaultname Cluster0
@@ -54,7 +52,6 @@ LAM Stack for this workshop
 - Keep Add sample dataset enabled
 - Provide AWS
 - Now create the deployment (button below/right)
-
 
 #### Configure the database cluster
 - There is an automatic user created.
@@ -104,7 +101,7 @@ Note: this same code can be used to load another MongoDB supplied HF dataset cal
 Code example from the AIatMongoDB/embedded_movies (loading the collection)
 Use:
 
-[MDB_emedded_datasets.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/blob/main/MDB_emedded_datasets.ipynb)
+[MDB_emedded_datasets.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demon1a.ipynb)
 
 **Note:** You can choose your own notebook interface to run your code. For the purposes of this workshop we have setup examples fro both AWS Sagemaker and Google Colab ( Section #5 for Sagemaker and Section #6 for Colab)
 
