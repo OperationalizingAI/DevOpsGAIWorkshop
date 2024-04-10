@@ -176,7 +176,7 @@ In this example we are going to load a HuggingFace dataset based on a Deming Boo
 
 Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge
 
-[GenAI-Workshop-Demon1b.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1b.ipynb)
+[GenAI-Workshop-Demo1b.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1b.ipynb)
 
 ### 5) Testing Embeddings  
 
@@ -201,7 +201,7 @@ model = SentenceTransformer('BAAI/bge-small-en-v1.5')
 #model = SentenceTransformer('nomic-ai/nomic-embed-text-v1',trust_remote_code=True)
 ```
 
-[GenAI-Workshop-Demon1c.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1c.ipynb)
+[GenAI-Workshop-Demo1c.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1c.ipynb)
 
 ### 6) Setup another Atlas Vector Database (Langchain Example)
 
@@ -245,6 +245,12 @@ Figure 1
 
 >>##### For more details see:
 >>[https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/](https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/)
+
+Load the vector database example:
+[GenAI-Workshop-Demo5.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo5.ipynb)
+
+Retrieve the vector database example:
+[GenAI-Workshop-Demo6.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo6.ipynb)
 
 ### 5) Using Google Colab 
 - Create a free account on Google Colab
