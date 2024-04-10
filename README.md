@@ -249,10 +249,12 @@ Figure 1
 Load the vector database example:
 [GenAI-Workshop-Demo5.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo5.ipynb)
 
+Note: The code assumes you have setup Google Secrets Manager. If your using a differnt platform you will need to change the code accordingly. 
+
 Retrieve the vector database example:
 [GenAI-Workshop-Demo6.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo6.ipynb)
 
-### 5) Using Google Colab 
+### 7) Setting up Google Colab 
 - Create a free account on Google Colab
 - Goto ( https://colab.research.google.com/ )
 - Clone the workshop repo
@@ -265,7 +267,7 @@ Retrieve the vector database example:
 - For certain labs you may need to copy the requirements,txt, OpenAICLient.py, AltasClient.py from the repo directory to the root directory.
 - Run your code.
    
-### 6) Using Amazon Sagemaker 
+### 8) Using Amazon Sagemaker 
 From the AWS Console navigate the Amazon Sagemaker (note you can use the search bar.)
 
 #### Setup a Notebook Instance
@@ -374,27 +376,6 @@ langsmith_api_key = secret["LANGSMITH_API_KEY"]
 os.environ['LANGSMITH_API_KEY'] = langsmith_api_key
 ```
 
-### 7) Chnunking and Embeddings Labs
-Use chunking and embeddings examples that were usied in the demos
-
-- **GenAI-Workshop-Demo1.ipynb** - Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge 
-- **GenAI-Workshop-Demo2.ipynb** - Using Embeddings to test Cosine Similarities
-- **GenAI-Workshop-Demo3.ipynb** - Chunking, Embedding, and Search (OpenContext Markdown)
-  - For Sagemaker remove all google installs
-  - You need to use AWS Secrets Manager for Sagemaker
-  - unzip catalog-yaml-format-20240309T155111Z-001.zip
-  - You need to change directory_path = '/home/ec2-user/SageMaker/DevOpsGAIWorkshop/catalog-yaml-format'
-- **GenAI-Workshop-Demo4.ipynb** - Open Context Documentaion Loader
-  - You need to use AWS Secrets Manager for Sagemaker
-  - Change all directory paths (each example) to '/home/ec2-user/SageMaker/DevOpsGAIWorkshop/catalog-yaml-format'
-
-Optional Lab
-
-- **GenAI-Workshop-Demo5.ipynb** - Cosine Similarity from Atlas Vector Search
-  - For Sagemaker remove all google installs
-  - You need to use AWS Secrets Manager for Sagemaker
-  - Need to upate the AtlasClient.py code (see instructor)
-
 ### 8) Evaluation Labs
 Using Pheonix Arize andLangsmith, we will look at different thinking strategies to analyze optimal relevance and similarity queries.
 
@@ -404,7 +385,7 @@ Arize Phoenix is an opensource tool for evaluating, troubleshoot, and fine tune 
 
 Lab Demo Example:
 
-- **GenAI-Workshop-Demo6.ipynb** - Evaluation of OpenContext Documentaion with Arize
+- **GenAI-Workshop-Demo7.ipynb** - Evaluation of OpenContext Documentaion with Arize
  - For Sagemaker change install - pip install arize-phoenix>=3.14.0
 
 This is what we are calling the LAM Stack Example...
@@ -479,7 +460,7 @@ px.Client().log_evaluations(
 )
 ```
 
-### 9) Optional Labs
+### 8) Optional Labs
 We created a number of lab exerciese based on the work of Sujee Maniyam. He did an amazing job researching and putting together a number of examples. However, they are all designed to run locally on your machine. We have created a number of his labs in this repository under the directory "labs/" that work with Google Colab and Amazon's Sagemaker. You can find his orignal work here:
 
 [https://github.com/sujee/mongodb-atlas-vector-search](https://github.com/sujee/mongodb-atlas-vector-search)]
@@ -502,7 +483,7 @@ Here's a list of the labs:
 - MDB-Lab4-1 - Load Uber and Lyft 10k PDFs into Atlas Vector Search.
 - MDB-Lab4-2 - DAL-E-3 Image generator.
 
-### 10) Setting S3 Buckets for large files (optional) 
+### 9) Setting S3 Buckets for large files (optional) 
 
 - Additional Notes for Processing Large Files
 - Setup a shared S3 blob
