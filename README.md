@@ -226,7 +226,7 @@ Figure 1
 - Setup Google Secrets Manager (secrets)
 - For certain labs you may need to copy the requirements,txt, OpenAICLient.py, AltasClient.py from the repo directory to the root directory.
 - Run your code.
-- 
+   
 ### 6) Using Amazon Sagemaker 
 From the AWS Console navigate the Amazon Sagemaker (note you can use the search bar.)
 
