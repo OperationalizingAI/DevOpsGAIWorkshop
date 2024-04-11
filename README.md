@@ -87,7 +87,7 @@ In this example we are going to load a HuggingFace dataset provided by MongoDB.
 >> [https://huggingface.co/datasets/AIatMongoDB/embedded_movies](https://huggingface.co/datasets/AIatMongoDB/embedded_movies)
 >>
 >>#### Here are some examples applications by MongoDB
->> [https://huggingface.co/AIatMongoDB](https://huggingface.co/AIatMongoDB)
+>> [https://huggingface.co/MongoDB](https://huggingface.co/MongoDB)
 
 
 #### Setup the Database Collection 
