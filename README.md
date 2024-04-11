@@ -103,7 +103,9 @@ Note: this same code can be used to load another MongoDB supplied HF dataset cal
 Code example from the AIatMongoDB/embedded_movies (loading the collection)
 Use:
 
-[GenAI-Workshop-Demon1a.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1a.ipynb)
+In the clone's repo run the following notebook:
+
+**GenAI-Workshop-Demon1a.ipyn**
 
 **Note:** You can choose your own notebook interface to run your code. For the purposes of this workshop we have setup examples fro both AWS Sagemaker and Google Colab ( Section #5 for Sagemaker and Section #6 for Colab)
 
@@ -174,9 +176,11 @@ If you need to reload a collection.
 
 In this example we are going to load a HuggingFace dataset based on a Deming Book and demo chunking stratgies.
 
-Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge
+Using Gradio to demonstrate chunking/ebeddings for Deming’s Journey to Profound Knowledge. 
 
-[GenAI-Workshop-Demo1b.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1b.ipynb)
+In the clone's repo run the following notebook:
+
+**GenAI-Workshop-Demo1b.ipynb**
 
 ### 5) Testing Embeddings  
 
@@ -200,8 +204,9 @@ model = SentenceTransformer('BAAI/bge-small-en-v1.5')
 #model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 #model = SentenceTransformer('nomic-ai/nomic-embed-text-v1',trust_remote_code=True)
 ```
+In the clone's repo run the following notebook:
 
-[GenAI-Workshop-Demo1c.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo1c.ipynb)
+**GenAI-Workshop-Demon1c.ipyn**
 
 ### 6) Setup another Atlas Vector Database (Langchain Example)
 
@@ -246,13 +251,15 @@ Figure 1
 >>##### For more details see:
 >>[https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/](https://www.mongodb.com/docs/atlas/atlas-vector-search/create-index/)
 
-Load the vector database example:
-[GenAI-Workshop-Demo5.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo5.ipynb)
+In the clone's repo run the following notebook:
+**GenAI-Workshop-Demo5.ipynb**
 
 Note: The code assumes you have setup Google Secrets Manager. If your using a differnt platform you will need to change the code accordingly. 
 
 Retrieve the vector database example:
-[GenAI-Workshop-Demo6.ipynb](https://github.com/OperationalizingAI/DevOpsGAIWorkshop/GenAI-Workshop-Demo6.ipynb)
+
+In the clone's repo run the following notebook:
+**GenAI-Workshop-Demo6.ipynb**
 
 ### 7) Setting up Google Colab 
 - Create a free account on Google Colab
