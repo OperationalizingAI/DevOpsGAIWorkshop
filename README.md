@@ -4,11 +4,12 @@ This workshop explores the integration and impact of Generative AI (GAI) tools i
 
 In this workshop we will focus on what we are calling the LAM stack in order to learn the basics of data operations and engenering realted to Large Language Models (LLMs.)
 
-LAM Stack for this workshop
+LORM Stack for this workshop
 
-- Langchain or LlamaIndex (Orchestration)
-- Arize Pheonix (Observability) 
-- MongoDB Atlas Vector Serach (RAG)
+- L - Langchain or LlamaIndex (Orchestration)
+- O - Arize Pheonix (Observability) 
+- R - MongoDB Atlas Vector Serach (RAG)
+- M - GPT4 (Model)
 
 ## Code of Conduct
 [https://devopsdays.org/conduct/](https://devopsdays.org/conduct/)
