@@ -72,7 +72,7 @@ LORM Stack for this workshop
 - After the Database is created select the Connect button for Cluster0
 - Select Drivers
 - Select Python (3.12 or later is fine)
-- Copy the connect string: it Should look like this:
+- Copy the connect string: it Should look like something like this:
 
  ```
   mongodb+srv://<userid>:<password>@cluster0.ozciyn7.mongodb.net/?retryWrites=true&w=majority
